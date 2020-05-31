@@ -11,6 +11,13 @@
 	padding: 0px; 
 }
 
+section {
+  background-color: #999999;
+  position: relative;
+  border: 2px solid black;
+  margin: 20px;
+}
+
 h1 {
 	text-align: center;
 	font-size: 1.75em;
@@ -18,22 +25,30 @@ h1 {
 	margin-bottom: 40px;
 }
 
-section div {
-	padding: 5px 20px 5px 20px;
-	border: 1 px solid black;
+h2 {
 	font-size: 1.25em;
-	position: absolute;
-	right: 40 px;
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  padding: 2px 50px 2px 50px;
+  border: 2px solid black;
 }
 
-section {
-	background-color: #999999;
-	margin: 10px;
-	position: relative;
+#Chicken {
+  background-color: #D59898;
+}
+
+#Beef {
+  background-color: #C14543;
+}
+
+#Sushi {
+  background-color: #E5D198;
 }
 
 p {
-	padding-top: 30px;
+	padding: 10px;
+  padding-top: 45px;
 }
 
 .row {
@@ -44,7 +59,7 @@ p {
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid black;
+    /*border: 1px solid black;*/  
   }
   .col-lg-1 {
     width: 8.33%;
@@ -88,7 +103,7 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
   }
   .col-md-1 {
     width: 8.33%;
@@ -132,7 +147,7 @@ p {
 @media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
   }
   .col-sm-1 {
     width: 8.33%;
