@@ -1,0 +1,45 @@
+body {
+	font-size: 16px;
+	color: black;
+	font-family: 'Balsamiq Sans', cursive;
+}
+
+/*header-styling*/
+.navbar-brand {
+	padding: 0px;
+}
+
+.navbar-brand h1 {
+	margin-top: 15px;
+	padding-left: 15px;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+#nav-list a:hover {
+	background: #FFFFFF;
+}
+
+
+
+/*content styling*/
+section {
+	background-color: #999999;
+	margin: 15px;
+	border-radius: 10px;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+h3 {
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+p {
+	padding: 15px;
+	padding-top: 0;
+}
+
